@@ -292,6 +292,10 @@ main>section {
         margin-left: 0px;
         padding: 20px;
     }
+    .footer{
+        padding: 20px 10px;
+        text-align: center;
+    }
 }
 
 
@@ -311,5 +315,9 @@ main>section {
     .sponsor-img-container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .footer{
+        padding: 30px 40px;
+        text-align: center;
     }
 }
