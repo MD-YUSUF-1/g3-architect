@@ -273,7 +273,8 @@ main>section {
     .navbar,
     .nav-links,
     .teams,
-    .features {
+    .features,
+    .sponsor-img-container {
         flex-direction: column;
     }
 
@@ -305,5 +306,10 @@ main>section {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         gap: 20px;
+    }
+
+    .sponsor-img-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
